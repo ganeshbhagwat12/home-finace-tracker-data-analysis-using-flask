@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+      body {
+          margin: 0;
+          padding: 0;
+           background-color: #002b36; 
+      }
+
+      .container {
+          background-color: #002b36;
+      }
+
+      .heading {
+          font-style: italic;
+          text-align: center;
+          font-size: 50px;
+          color:white;
+      }
+
+      .tagline {
+          background-color: yellow;
+          font-size: 60px;
+          text-align: center;
+          font-style: italic;
+      }
+      
+      .flex {
+             display: flex;
+             gap:10px; 
+             align-items: center;
+          
+           }
+     
+           .button1 {
+          height: 40px;
+          width: 1500px;
+          border-radius: 20px;
+          font-size: 25px;
+          background-color: chartreuse;
+          text-align: center;
+          /* margin-right: 550px; */
+      }
+      .button2{
+          height: 40px;
+          width: 1500px;
+          border-radius: 20px;
+          font-size: 25px;
+          background-color: chartreuse;
+          text-align: center;
+           /* margin-right: 350px;  */
+          
+        
+      }
+      .button3 {
+          height: 40px;
+          width: 1500px;
+          border-radius: 20px;
+          font-size: 25px;
+          background-color: chartreuse;
+          text-align: center;
+          /* margin-right: 550px; */
+      }
+       .ok
+      {
+       align-self: center;
+       margin-top: 200px;
+      }
+
+      a {
+    text-decoration: none; /* Remove underline */
+}
+
+  </style>
+</head>
+<body>
+  <div class="body">
+  <div class="ok">
+    <div class="container">
+        <h1 class="heading">Welcome</h1>
+        <p class="tagline">Budget Partner: Home Finance Tracker</p>
+        <div class="flex">
+        <button class="button1"><a href="{{ url_for('income_analysis') }}">Income Analysis</a></button>
+        <button class="button2"><a href="{{ url_for('expense_analysis') }}">Expense Analysis</a></button>
+        <button class="button3"><a href="{{ url_for('budget_analysis') }}">Budget Analysis</a></button>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+</html>

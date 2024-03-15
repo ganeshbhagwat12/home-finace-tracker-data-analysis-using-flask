@@ -1,0 +1,250 @@
+Category,Item,Amount (INR),Date,Savings
+Housing,Mortgage/Rent,1500,31-01-2024,100
+Housing,Property Taxes,3000,01-02-2024,200
+Housing,Home Insurance,1000,02-02-2024,20
+Utilities,Electricity,800,03-02-2024,100
+Utilities,Water,500,04-02-2024,200
+Utilities,Gas,300,05-02-2024,20
+Utilities,Internet,600,06-02-2024,100
+Maintenance,Repairs/Maintenance,500,07-02-2024,200
+Maintenance,Lawn Care,200,08-02-2024,20
+Groceries,Weekly Groceries,3000,09-02-2024,30
+Dining Out,Restaurants,1000,10-02-2024,20
+Transportation,Gas,500,11-02-2024,50
+Transportation,Maintenance,300,12-02-2024,20
+Entertainment,Streaming Services,200,13-02-2024,30
+Entertainment,Movies/Concerts,500,14-02-2024,20
+Personal Care,Toiletries,300,15-02-2024,50
+Personal Care,Haircuts,200,16-02-2024,20
+Home Improvement,Renovations,2000,17-02-2024,30
+Home Improvement,Furniture,1000,18-02-2024,20
+Savings,Emergency Fund,1000,19-02-2024,50
+Savings,Long-term Savings,500,20-02-2024,20
+Special Occasions,Birthdays,3000,21-02-2024,30
+Special Occasions,Holidays,1000,22-02-2024,20
+Debt Payments,Credit Card Payment,750,23-02-2024,50
+Debt Payments,Loan Payments,1500,24-02-2024,20
+Groceries,Monthly Groceries,2000,25-02-2024,30
+Dining Out,Takeout,500,26-02-2024,20
+Transportation,Public Transportation,200,27-02-2024,50
+Entertainment,Subscriptions,150,28-02-2024,20
+Personal Care,Grooming,400,29-02-2024,30
+Home Improvement,Appliance Purchase,800,01-03-2024,20
+Savings,Investment,750,02-03-2024,50
+Special Occasions,Anniversary,500,03-03-2024,20
+Debt Payments,Student Loan Payment,1000,04-03-2024,30
+Utilities,Cable TV,400,05-03-2024,20
+Maintenance,Pest Control,2500,06-03-2024,50
+Groceries,Specialty Foods,400,07-03-2024,20
+Dining Out,Coffee Shops,200,08-03-2024,30
+Transportation,Parking,150,09-03-2024,20
+Entertainment,Sports Events,600,10-03-2024,50
+Personal Care,Health Insurance,1500,11-03-2024,20
+Home Improvement,Gardening Supplies,25,12-03-2024,30
+Savings,Retirement Savings,200,13-03-2024,20
+Debt Payments,Car Loan Payment,120,14-03-2024,50
+Miscellaneous,Miscellaneous,50,15-03-2024,20
+Housing,Mortgage/Rent,1500,16-03-2024,30
+Housing,Property Taxes,300,17-03-2024,20
+Housing,Home Insurance,100,18-03-2024,50
+Utilities,Electricity,80,19-03-2024,20
+Utilities,Water,50,20-03-2024,30
+Utilities,Gas,30,21-03-2024,20
+Utilities,Internet,60,22-03-2024,50
+Maintenance,Repairs/Maintenance,5000,23-03-2024,20
+Maintenance,Lawn Care,20,24-03-2024,30
+Groceries,Weekly Groceries,500,25-03-2024,20
+Dining Out,Restaurants,100,26-03-2024,50
+Transportation,Gas,5000,27-03-2024,20
+Transportation,Maintenance,30,28-03-2024,30
+Entertainment,Streaming Services,20,29-03-2024,20
+Entertainment,Movies/Concerts,50,30-03-2024,50
+Personal Care,Toiletries,30,31-03-2024,20
+Personal Care,Haircuts,20,01-04-2024,30
+Home Improvement,Renovations,200,02-04-2024,20
+Home Improvement,Furniture,100,03-04-2024,50
+Savings,Emergency Fund,100,04-04-2024,20
+Savings,Long-term Savings,50,05-04-2024,30
+Special Occasions,Birthdays,30,06-04-2024,20
+Special Occasions,Holidays,100,07-04-2024,50
+Debt Payments,Credit Card Payment,75,08-04-2024,20
+Debt Payments,Loan Payments,150,09-04-2024,30
+Groceries,Monthly Groceries,200,10-04-2024,20
+Dining Out,Takeout,50,11-04-2024,50
+Transportation,Public Transportation,20,12-04-2024,20
+Entertainment,Subscriptions,15,13-04-2024,30
+Personal Care,Grooming,40,14-04-2024,20
+Home Improvement,Appliance Purchase,80,15-04-2024,50
+Savings,Investment,75,16-04-2024,20
+Special Occasions,Anniversary,50,17-04-2024,30
+Debt Payments,Student Loan Payment,100,18-04-2024,20
+Utilities,Cable TV,40,19-04-2024,50
+Maintenance,Pest Control,25,20-04-2024,20
+Groceries,Specialty Foods,40,21-04-2024,30
+Dining Out,Coffee Shops,20,22-04-2024,20
+Transportation,Parking,15,23-04-2024,50
+Entertainment,Sports Events,60,24-04-2024,20
+Personal Care,Health Insurance,150,25-04-2024,30
+Home Improvement,Gardening Supplies,25,26-04-2024,20
+Savings,Retirement Savings,200,27-04-2024,50
+Debt Payments,Car Loan Payment,120,28-04-2024,20
+Miscellaneous,Miscellaneous,50,29-04-2024,30
+Agriculture,Seeds and Fertilizers,75,30-04-2024,20
+Agriculture,Equipment Maintenance,40,01-05-2024,50
+Agriculture,Irrigation System,30,02-05-2024,20
+Agriculture,Harvesting Tools,25,03-05-2024,30
+Agriculture,Pest Control,35,04-05-2024,20
+Agriculture,Soil Testing,20,05-05-2024,50
+Agriculture,Land Lease,200,06-05-2024,20
+Agriculture,Insurance for Crops,50,07-05-2024,30
+Agriculture,Training and Workshops,80,08-05-2024,20
+Agriculture,Storage Facilities,30,09-05-2024,50
+Education,Tuition Fees,500,10-05-2024,20
+Education,Books and Supplies,100,11-05-2024,30
+Education,Equipment,200,12-05-2024,20
+Education,Transportation,5000,13-05-2024,50
+Education,Extracurricular Activities,30,14-05-2024,20
+Education,Uniforms,40,15-05-2024,30
+Education,School Trips,25,16-05-2024,20
+Education,Lunch/Snacks,30,17-05-2024,50
+Education,Exam Fees,20,18-05-2024,20
+Education,Tutoring Services,50,19-05-2024,30
+Education,Education Savings,150,20-05-2024,20
+Housing,Mortgage/Rent,1500,21-05-2024,50
+Housing,Property Taxes,300,22-05-2024,20
+Housing,Home Insurance,100,23-05-2024,30
+Utilities,Electricity,80,24-05-2024,20
+Utilities,Water,50,25-05-2024,50
+Utilities,Gas,30,26-05-2024,20
+Utilities,Internet,60,27-05-2024,30
+Maintenance,Maintenance,500,28-05-2024,20
+Maintenance,Lawn Care,20,29-05-2024,50
+Groceries,Weekly Groceries,300,30-05-2024,20
+Dining Out,Restaurants,100,31-05-2024,30
+Transportation,Gas,5000,01-06-2024,20
+Transportation,Maintenance,30,02-06-2024,50
+Entertainment,Streaming Services,20,03-06-2024,20
+Entertainment,Movies/Concerts,50,04-06-2024,30
+Personal Care,Toiletries,30,05-06-2024,20
+Personal Care,Haircuts,20,06-06-2024,50
+Home Improvement,Renovations,200,07-06-2024,20
+Home Improvement,Furniture,100,08-06-2024,30
+Savings,Emergency Fund,100,09-06-2024,20
+Savings,Long-term Savings,50,10-06-2024,50
+Special Occasions,Birthdays,30,11-06-2024,20
+Special Occasions,Holidays,100,12-06-2024,30
+Debt Payments,Credit Card Payment,75,13-06-2024,20
+Debt Payments,Loan Payments,150,14-06-2024,50
+Groceries,Monthly Groceries,200,15-06-2024,20
+Dining Out,Takeout,50,16-06-2024,30
+Transportation,Public Transportation,20,17-06-2024,20
+Entertainment,Subscriptions,15,18-06-2024,50
+Personal Care,Grooming,40,19-06-2024,20
+Home Improvement,Appliance Purchase,80,20-06-2024,30
+Savings,Investment,75,21-06-2024,20
+Special Occasions,Anniversary,50,22-06-2024,50
+Debt Payments,Student Loan Payment,100,23-06-2024,20
+Utilities,Cable TV,40,24-06-2024,30
+Maintenance,Pest Control,25,25-06-2024,20
+Groceries,Specialty Foods,40,26-06-2024,50
+Dining Out,Coffee Shops,20,27-06-2024,10
+Transportation,Parking,15,28-06-2024,10
+Entertainment,Sports Events,60,29-06-2024,10
+Personal Care,Health Insurance,150,30-06-2024,30
+Home Improvement,Gardening Supplies,25,01-07-2024,20
+Savings,Retirement Savings,200,02-07-2024,50
+Debt Payments,Car Loan Payment,120,03-07-2024,10
+Miscellaneous,Miscellaneous,50,04-07-2024,10
+Agriculture,Seeds and Fertilizers,75,05-07-2024,30
+Agriculture,Equipment Maintenance,40,06-07-2024,20
+Agriculture,Irrigation System,30,07-07-2024,50
+Agriculture,Harvesting Tools,25,08-07-2024,10
+Housing,Mortgage/Rent,1500,09-07-2024,10
+Housing,Property Taxes,300,10-07-2024,30
+Housing,Home Insurance,100,11-07-2024,20
+Utilities,Electricity,80,12-07-2024,50
+Utilities,Water,50,13-07-2024,10
+Utilities,Gas,3000,14-07-2024,10
+Utilities,Internet,60,15-07-2024,30
+Maintenance,Maintenance,50,16-07-2024,20
+Maintenance,Lawn Care,20,17-07-2024,50
+Groceries,Weekly Groceries,300,18-07-2024,10
+Dining Out,Restaurants,100,19-07-2024,10
+Transportation,Gas,50,20-07-2024,30
+Transportation,Maintenance,30,21-07-2024,20
+Entertainment,Streaming Services,20,22-07-2024,50
+Entertainment,Movies/Concerts,50,23-07-2024,10
+Personal Care,Toiletries,30,24-07-2024,10
+Personal Care,Haircuts,20,25-07-2024,30
+Home Improvement,Renovations,200,26-07-2024,20
+Home Improvement,Furniture,100,27-07-2024,50
+Savings,Emergency Fund,100,28-07-2024,10
+Savings,Long-term Savings,50,29-07-2024,10
+Special Occasions,Birthdays,30,30-07-2024,30
+Special Occasions,Holidays,100,31-07-2024,20
+Debt Payments,Credit Card Payment,75,01-08-2024,50
+Debt Payments,Loan Payments,150,02-08-2024,10
+Groceries,Monthly Groceries,200,03-08-2024,10
+Dining Out,Takeout,50,04-08-2024,10
+Transportation,Public Transportation,20,05-08-2024,10
+Entertainment,Subscriptions,15,06-08-2024,30
+Personal Care,Grooming,40,07-08-2024,20
+Home Improvement,Appliance Purchase,80,08-08-2024,50
+Savings,Investment,75,09-08-2024,10
+Special Occasions,Anniversary,50,10-08-2024,10
+Debt Payments,Student Loan Payment,100,11-08-2024,10
+Utilities,Cable TV,40,12-08-2024,10
+Maintenance,Pest Control,25,13-08-2024,30
+Groceries,Specialty Foods,40,14-08-2024,20
+Dining Out,Coffee Shops,20,15-08-2024,50
+Transportation,Parking,15,16-08-2024,10
+Entertainment,Sports Events,60,17-08-2024,10
+Personal Care,Health Insurance,150,18-08-2024,10
+Home Improvement,Gardening Supplies,25,19-08-2024,10
+Savings,Retirement Savings,200,20-08-2024,30
+Debt Payments,Car Loan Payment,120,21-08-2024,20
+Miscellaneous,Miscellaneous,50,22-08-2024,50
+Agriculture,Seeds and Fertilizers,75,23-08-2024,10
+Agriculture,Equipment,40,24-08-2024,10
+Agriculture,Irrigation System,30,25-08-2024,10
+Agriculture,Harvesting Tools,25,26-08-2024,10
+Agriculture,Pest Control,35,27-08-2024,30
+Agriculture,Soil Testing,20,28-08-2024,20
+Agriculture,Land Lease,200,29-08-2024,50
+Agriculture,Insurance for Crops,50,30-08-2024,10
+Agriculture,Training and Workshops,80,31-08-2024,10
+Agriculture,Storage Facilities,30,01-09-2024,10
+Education,Tuition Fees,500,02-09-2024,10
+Education,Books and Supplies,100,03-09-2024,30
+Education,Technology,20000,04-09-2024,20
+Education,Transportation,50,05-09-2024,50
+Education,Extracurricular Activities,30,06-09-2024,10
+Education,Uniforms,40,07-09-2024,10
+Education,School Trips,25,08-09-2024,10
+Education,Lunch/Snacks,30,09-09-2024,10
+Education,Exam Fees,20,10-09-2024,30
+Education,Tutoring Services,50,11-09-2024,20
+Education,College Savings,150,12-09-2024,50
+Healthcare,Health Checkups,80,13-09-2024,10
+Healthcare,Prescription Medications,50,14-09-2024,10
+Healthcare,Health Insurance Premiums,120,15-09-2024,10
+Healthcare,Fitness Classes,40,16-09-2024,10
+Healthcare,Vitamins and Supplements,30,17-09-2024,30
+Healthcare,Eye Care,250,18-09-2024,20
+Healthcare,Dental Checkups,50,19-09-2024,50
+Healthcare,Medical Supplies,20,20-09-2024,10
+Healthcare,Alternative Therapies,60,21-09-2024,10
+Healthcare,Emergency Fund for Medical Expenses,100,22-09-2024,10
+Personal Development,Online Courses,75,23-09-2024,10
+Personal Development,Workshops and Seminars,50,24-09-2024,30
+Personal Development,Books and Reading Materials,300,25-09-2024,20
+Personal Development,Subscription to Educational Platforms,200,26-09-2024,50
+Personal Development,Networking Events,400,27-09-2024,10
+Personal Development,Professional Memberships,600,28-09-2024,10
+Personal Development,Coaching/Mentorship,1000,29-09-2024,10
+Personal Development,Conferences,750,30-09-2024,10
+Personal Development,Skill-building Tools/Software,500,01-10-2024,30
+Personal Development,Language Courses,300,02-10-2024,20
+Personal Development,Certification Exams,800,03-10-2024,50
+Personal Development,Travel for Educational Purposes,1500,04-10-2024,10
+

@@ -1,0 +1,196 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Income Analysis</title>
+    <!-- <link rel="stylesheet" href="{{ url_for('static', filename='app.css') }}"> -->
+    <style>
+.body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color:#002b36;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.main-title {
+    margin:10px;
+    color:pink;
+    margin-left:550px;
+    font-size:50px ;
+}
+
+.main-content {
+    padding: 20px;
+    background-color:#002b36;
+}
+
+.total-income {
+    font-size: 35px;
+    color: #007bff;
+    background-color: chartreuse;
+}
+
+.income-categories-title {
+    font-size: 35px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+
+.income-categories{
+    font-size:20px ;
+    background-color:white;
+    
+}
+
+.chart-section {
+    margin-top: 30px;
+}
+
+.chart-title {
+    color: yellow;
+    font-size:35px ;
+}
+
+.chart-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.heatmap-section {
+    margin-top: 20px;
+}
+
+.heatmap-title {
+    font-size: 35px;
+    font-weight: bold;
+    color: yellow;
+}
+
+.heatmap-info {
+    color:white;
+    font-size:35px ;
+}
+
+.heatmap-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.summary-chart-section {
+    margin-top: 20px;
+
+}
+
+.summary-chart-image {
+    max-width: 100%;
+    height:auto;
+}
+
+.most-income-category {
+    font-size: 35px;
+    color: cyan;
+    background-color:chocolate;
+}
+
+.navigation {
+    display: flex;
+             gap:0px; 
+             align-items: center;
+}
+
+.nav-link {
+    display: block;
+    margin-bottom: 10px;
+    color: papayawhip;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+button {
+          height: 40px;
+          width: 500px;
+          border-radius: 20px;
+          font-size: 25px;
+          background-color: chartreuse;
+          text-align: center;
+          /* margin-right: 550px; */
+      }
+
+    .chart-image {
+        width: 500px;
+        height:500px;
+                /* Adjust as needed */
+    }
+    
+    a {
+    text-decoration: none; /* Remove underline */
+}
+
+    </style>
+</head>
+<body class="body">
+
+    <header>
+        <h1 class="main-title">Income Analysis</h1>
+    </header>
+
+    <section class="main-content">
+
+        <p class="total-income">Total Income: {{ total_income }}</p>
+
+        <p class="income-categories-title">Income by Categories:</p>
+        <div class="income-categories" style="width: 400px; height: 850px;">{{ income_by_categories|safe }}</div>
+    
+        <div class="chart-section">
+            <h2 class="chart-title">Savings Analysis & Income Trend Over Time</h2>
+            <img src="data:image/png;base64,{{ Profit_Margin_chart }}" alt="Profit Margin Analysis" class="chart-image">
+            <img src="data:image/png;base64,{{ Trending_chart }}" alt="Income Trend Over Time" class="chart-image">
+        </div>
+    
+        <div class="chart-section">
+            <h2 class="chart-title">Income Distribution</h2>
+            <img src="data:image/png;base64,{{Top_Pie_chart}}" alt="Income Distribution (Top 50%)" class="chart-image">
+            <img src="data:image/png;base64,{{Bottom_Pie_chart}}" alt="Income Distribution (Bottom 50%)" class="chart-image">
+        </div>
+    
+        <div class="chart-section">
+            <h2 class="heatmap-title">Descriptive Statistics and Heatmap </h2>
+            <ol class="heatmap-info" >
+                <li>Mean: {{ mean_income }}</li>
+                <li>Median: {{  median_income }}</li>
+                <li>Standard Deviation: {{std_dev_income}}</li>
+            </ol>
+            <img src="data:image/png;base64,{{ img_data_heatmap }}" alt="Heatmap of Profit Margin" class="chart-image">
+            <br>
+            <h2 class="heatmap-title">Summary Of Analysis</h2>
+            <img src="data:image/png;base64,{{ summary_chart }}" alt="Summary Of Analysis" class="chart-image"> 
+        </div>
+    
+        <p class="most-income-category">Most Income Category: {{ most_income_category['Categories'] }}</p>
+        
+    </section>
+    
+    <nav class="navigation">
+        <button class="button"><a href="{{ url_for('expense_analysis') }}" class="nav-link">Expense  Analysis</a></button>
+    </nav>
+</body>
+</html>

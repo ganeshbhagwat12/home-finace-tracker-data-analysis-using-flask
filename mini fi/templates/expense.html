@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+            background-color:#002b36;
+        }
+        
+        
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        .main-title {
+            margin:10px;
+            color:pink;
+            margin-left:550px;
+            font-size:50px ;
+        }
+        
+        .main-content {
+            padding: 20px;
+            background-color:#002b36;
+        }
+        
+        .total-expance {
+            font-size: 35px;
+            color: #007bff;
+            background-color: chartreuse;
+        }
+        
+        .expance-categories-title {
+            font-size: 35px;
+            font-weight: bold;
+            background-color: black;
+            color: white;
+        }
+        
+        .expance-categories{
+            font-size:20px ;
+            background-color:white;
+        }
+        
+    
+        
+        .chart-title {
+            color: yellow;
+            font-size:35px ;
+        }
+        
+        .chart-image {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        
+        .heatmap-title {
+            font-size: 35px;
+            font-weight: bold;
+            color: yellow;
+        }
+        
+        .heatmap-image {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        .summary-chart-image {
+            max-width: 100%;
+            height:auto;
+        }
+        
+        .most-income-category {
+            font-size: 35px;
+            color: cyan;
+            background-color:chocolate;
+        }
+        
+        .navigation {
+            margin-top: 20px;
+            font-size:35px ;
+        }
+        
+        .nav-link {
+            display: block;
+            margin-bottom: 10px;
+            color: papayawhip;
+            text-decoration: none;
+        }
+        
+        .nav-link:hover {
+            text-decoration: underline;
+        }
+        
+        button {
+          height: 40px;
+          width: 500px;
+          border-radius: 20px;
+          font-size: 25px;
+          background-color: chartreuse;
+          text-align: center;
+          margin-right: 550px;
+      }
+
+      .chart-image {
+        width:500px;
+        height:500px;
+                /* Adjust as needed */
+    }
+    
+    a {
+    text-decoration: none; /* Remove underline */
+}
+
+            </style>
+    <title>Expense Analysis</title>
+</head>
+<body class="body">
+    <h1 class="main-title">Expense Analysis</h1>
+    <p class="total-expance">Total Expense: {{ total_expense }}</p>
+    <p class="expance-categories-title">Expense by Category:</p>
+     <div class="expance-categories" style="width: 320px; height: 550px;">{{ expense_by_category|safe }}</div>
+    <div>
+        <h1 class="chart-title">Expense Trends Over Time & Expense Distribution by Category</h1>
+        <img src="data:image/png;base64,{{ expense_trends_chart }}" alt="expense_trends_chart" class="chart-image">
+        <img src="data:image/png;base64,{{ pie_chart }}" alt="pie_chart" class="chart-image">
+    </div>
+    <div>
+        <h1 class="chart-title">Monthly Expenses & Top Expenses Overal</h1>
+        <img src="data:image/png;base64,{{ top_expenses_monthly }}" alt="top_expenses_monthly" class="chart-image">
+        <img src="data:image/png;base64,{{ top_expenses_chart }}" alt="top_expenses_chart" class="chart-image">
+    </div>
+    <div>
+        <h1 class="heatmap-title">Monthly Expense Trend Heatmap & Expense Summary of analysis</h1>
+        <img src="data:image/png;base64,{{ monthly_trand}}" alt="monthly_trand" class="chart-image">    
+        <img src="data:image/png;base64,{{ summary_plot }}" alt="summary_plot" class="chart-image">
+  </div>
+    <button class="button"><a href="{{ url_for('budget_analysis') }}">Budget  Analysis</a></button>
+</body>
+</html>

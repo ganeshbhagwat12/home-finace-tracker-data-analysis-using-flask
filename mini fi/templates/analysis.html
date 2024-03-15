@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Analysis</title>
+    <style>
+        .body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+            background-color:#002b36;
+        }
+        
+        
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        .main-title {
+            margin:10px;
+            color:pink;
+            margin-left:550px;
+            font-size:50px ;
+        }
+        
+        .main-content {
+            padding: 20px;
+            background-color:#002b36;
+        }
+        
+        .total-expance {
+            font-size: 35px;
+            color: #007bff;
+            background-color: chartreuse;
+        }
+        
+        .expance-categories-title {
+            font-size: 35px;
+            font-weight: bold;
+            background-color: black;
+            color: white;
+        }
+        
+        .expance-categories{
+            font-size:20px ;
+            background-color:white;
+        }
+        
+    
+        
+        .chart-title {
+            color: yellow;
+            font-size:35px ;
+        }
+        
+        .chart-image {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        
+        .heatmap-title {
+            font-size: 35px;
+            font-weight: bold;
+            color: yellow;
+        }
+        
+        .heatmap-image {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        .summary-chart-section {
+            margin-top: 20px;
+        
+        }
+        
+        .summary-chart-image {
+            max-width: 100%;
+            height:auto;
+        }
+        
+        .most-income-category {
+            font-size: 35px;
+            color: cyan;
+            background-color:chocolate;
+        }
+        
+        .navigation {
+            margin-top: 20px;
+            font-size:35px ;
+        }
+        
+        .nav-link {
+            display: block;
+            margin-bottom: 10px;
+            color: papayawhip;
+            text-decoration: none;
+        }
+        
+        .nav-link:hover {
+            text-decoration: underline;
+        }
+        
+        .button {
+          height: 40px;
+          width: 150px;
+          border-radius: 20px;
+          font-size: 25px;
+          background-color: chartreuse;
+          text-align: center;
+          margin-right: 550px;
+      }
+      .chart-image {
+        width: 500px;
+        height:500px;
+                /* Adjust as needed */
+    }
+
+    
+    a {
+    text-decoration: none; /* Remove underline */
+}
+
+            </style>
+</head>
+<body>
+    <div class="body">
+    <h1 class="main-title">Budget Analysis</h1>
+    <p class="total-expance">Total Expenses: {{ total_expenses }}</p>
+    <p class="expance-categories">Total Savings: {{ total_profit_margin }}</p>
+    <div >
+        <h1 class="chart-title">Total Expenses by Category & Comparison: Expenses vs Savings</h1>
+    <img src="data:image/png;base64,{{  expense_category_chart }}" alt=" expense_category_chart" class="chart-image">
+    <img src="data:image/png;base64,{{  comparison_pie_chart}}" alt="comparison_pie_chart" class="chart-image">
+   </div>
+    <div>
+    <h1 class="chart-title">Trend: Expenses vs Savings Over Time & Income vs Expense Analysis</h1>
+    <img src="data:image/png;base64,{{trands}}" alt="trands"  class="chart-image">
+    <img src="data:image/png;base64,{{in_chart}}" alt="in_chart"  class="chart-image">
+    </div>
+    <div>
+        <h1 class="heatmap-title">Income, Savings, and Expense summary of Analysis</h1>
+    <img src="data:image/png;base64,{{sup_chart}}" alt="sup_chart"  class="chart-image">
+    </div>
+    <h1 class="heatmap-title">Actual vs Predicted Expenses Over Time & Actual vs Predicted Income</h1>
+    <img src="data:image/png;base64,{{expenses_predictions_chart}}" alt="expenses_predictions_chart"  class="chart-image">
+    <img src="data:image/png;base64,{{Income_Pie_chart}}" alt="Income_Pie_chart"  class="chart-image">
+    <h1 class="chart-title">Budget prediction:Predicted Expenses vs Predicted Income</h1>
+    <img src="data:image/png;base64,{{overal_predict}}" alt="overal_predict"  class="chart-image">
+   </div>
+    <button class="button"><a href="{{ url_for('home') }}" class="nav-link">Home</a></button>
+</div>
+</body>
+</html>
